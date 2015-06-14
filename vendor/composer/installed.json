@@ -1,0 +1,39 @@
+[
+    {
+        "name": "coinbase/coinbase",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/coinbase/coinbase-php.git",
+            "reference": "d46f08a321a235afca1cebe324491d6043bd9c5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/coinbase/coinbase-php/zipball/d46f08a321a235afca1cebe324491d6043bd9c5d",
+            "reference": "d46f08a321a235afca1cebe324491d6043bd9c5d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2014-10-09 19:34:12",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Coinbase": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Coinbase API library",
+        "homepage": "http://coinbase.com",
+        "keywords": [
+            "bitcoin",
+            "coinbase"
+        ]
+    }
+]
